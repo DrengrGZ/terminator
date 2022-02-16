@@ -1,0 +1,39 @@
+[global_config]
+  enabled_plugins = ,
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#1f1f1f"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#edecee"
+    font = MesloLGS NF 10
+    foreground_color = "#edecee"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#1c1b22:#4d4d4d:#ff6767:#ffca85:#61ffca:#a277ff:#ffca85:#ffca85:#a277ff:#a277ff:#a277ff:#a277ff:#61ffca:#61ffca:#edecee:#edecee"
+    custom_command = /bin/zsh
+    use_system_font = False
+  [[blur]]
+    background_color = "#3e3e3e"
+    background_darkness = 0.7
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#f6f5f4"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#000000:#cc0000:#a4bf3f:#c4a000:#3fb8bf:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+  [[New Profile]]
+    cursor_color = "#aaaaaa"
+    show_titlebar = False
+    scrollbar_position = hidden
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
